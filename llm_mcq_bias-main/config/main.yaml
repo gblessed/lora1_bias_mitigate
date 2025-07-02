@@ -1,0 +1,7 @@
+DATASET_ID: "medmcqa"  # Options: "medmcqa", "teleqna", "qasc"
+MODEL_ID: "Qwen/Qwen2.5-3B-Instruct"  # Options: "Qwen/Qwen2.5-3B-Instruct", "microsoft/phi-2"
+
+PATHS:
+  medmcqa: "/home/ubuntu/data/telcom_llm/medmcqa/dev.json"
+  teleqna: "/data/questions_new_final_backup.json"
+  qasc: "/home/ubuntu/data/telcom_llm/QASC_Dataset_1Step/dev.jsonl"
